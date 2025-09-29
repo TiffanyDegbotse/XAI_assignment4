@@ -19,7 +19,7 @@ pip install scipy==1.13.1 seaborn==0.12.2 matplotlib==3.7.2
 XAI_assignment4/
 ├── src/
 │   └── TMDB_movie_dataset_v11.csv
-└── assignment4.ipynb
+└── global_explanations.ipynb
 ```
 2. Open the notebook:  
    - Google Colab: Open from GitHub or upload the notebook.  
