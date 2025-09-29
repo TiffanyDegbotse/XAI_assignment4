@@ -4,7 +4,7 @@
 **Dataset:** Asaniczka. (2024). *Full TMDB Movies Dataset 2024 (1M Movies)* [Data set]. Kaggle. ODC Attribution License. Available at: https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies  
 
 ## Project Overview  
-This project applies explainable AI (XAI) techniques to predict movie ratings using the TMDB dataset. The target variable is `vote_average`; the features are `budget`, `popularity`, `runtime`, and `vote_count`. The trained model is a Random Forest Regressor (XGBoost is imported but not trained). Interpretability includes Partial Dependence (PDP), Individual Conditional Expectation (ICE), Accumulated Local Effects (ALE), SHAP, permutation importance, and a correlation analysis.  
+This project applies explainable AI (XAI) techniques to predict movie ratings using the TMDB dataset. The target variable is `vote_average`; the features are `budget`, `popularity`, `runtime`, and `vote_count`. The trained model is a Random Forest Regressor. Interpretability includes Partial Dependence (PDP), Individual Conditional Expectation (ICE) and Accumulated Local Effects (ALE)
 
 ## Installation  
 ```bash
@@ -27,13 +27,12 @@ XAI_assignment4/
 3. Run the cells in order:  
    - Load and clean data (drop NAs in `budget`, `popularity`, `runtime`, `vote_count`, `vote_average`; sample 5,000 rows).  
    - Train `RandomForestRegressor`.  
-   - Generate interpretability outputs (PDP, ICE, ALE, SHAP, correlation matrix, permutation importance).  
+   - Generate interpretability outputs (PDP, ICE, ALE, correlation matrix).  
 4. Expected outputs:  
    - PDP plots showing budget’s negative relationship with predicted ratings  
    - ICE plots highlighting heterogeneity in predictions  
    - ALE plots confirming trends across ranges  
    - Correlation matrix showing budget and vote_count correlation  
-   - SHAP values and permutation importance ranking features  
 
 ## Results Summary  
 - Budget vs Ratings: predicted ratings decrease as budget increases, then plateau at very high budgets.  
@@ -46,9 +45,8 @@ XAI_assignment4/
 **Dataset**  
 Asaniczka. (2024). *Full TMDB Movies Dataset 2024 (1M Movies)* [Data set]. Kaggle. ODC Attribution License. Available at: https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies  
 
-**Models**  
+**Model**  
 Breiman, L. (2001). Random forests. *Machine Learning, 45*(1), 5–32. https://doi.org/10.1023/A:1010933404324  
-Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. In *Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining* (pp. 785–794). ACM. https://doi.org/10.1145/2939672.2939785  
 
 **XAI Methods**  
 Lundberg, S. M., & Lee, S.-I. (2017). A unified approach to interpreting model predictions. In *Advances in Neural Information Processing Systems* (NeurIPS).  
