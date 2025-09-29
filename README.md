@@ -48,12 +48,4 @@ Asaniczka. (2024). *Full TMDB Movies Dataset 2024 (1M Movies)* [Data set]. Kaggl
 **Model**  
 Breiman, L. (2001). Random forests. *Machine Learning, 45*(1), 5–32. https://doi.org/10.1023/A:1010933404324  
 
-**XAI Methods**  
-Lundberg, S. M., & Lee, S.-I. (2017). A unified approach to interpreting model predictions. In *Advances in Neural Information Processing Systems* (NeurIPS).  
-Jumelle, M. (2023). *ALEPython* [Python package]. GitHub. Available at: https://github.com/MaximeJumelle/ALEPython  
-
-**Visualization Libraries**  
-Hunter, J. D. (2007). Matplotlib: A 2D graphics environment. *Computing in Science & Engineering, 9*(3), 90–95. https://doi.org/10.1109/MCSE.2007.55  
-Waskom, M. (2021). Seaborn: Statistical data visualization. *Journal of Open Source Software, 6*(60), 3021. https://doi.org/10.21105/joss.03021  
-
 ** The above ReadMe  was generated using ChatGPT on 09/29/25 at 4:00am.**
