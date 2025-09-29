@@ -22,8 +22,7 @@ XAI_assignment4/
 └── global_explanations.ipynb
 ```
 2. Open the notebook:  
-   - Google Colab: Open from GitHub or upload the notebook.  
-   - Local: `global_explanations.ipynb`  
+   - Google Colab: Open from GitHub or upload the notebook.   
 3. Run the cells in order:  
    - Load and clean data (drop NAs in `budget`, `popularity`, `runtime`, `vote_count`, `vote_average`; sample 5,000 rows).  
    - Train `RandomForestRegressor`.  
