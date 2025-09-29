@@ -48,4 +48,4 @@ Asaniczka. (2024). *Full TMDB Movies Dataset 2024 (1M Movies)* [Data set]. Kaggl
 **Model**  
 Breiman, L. (2001). Random forests. *Machine Learning, 45*(1), 5–32. https://doi.org/10.1023/A:1010933404324  
 
-** The above ReadMe  was generated using ChatGPT on 09/29/25 at 4:00am.**
+The above ReadMe  was generated using ChatGPT on 09/29/25 at 4:00am.
